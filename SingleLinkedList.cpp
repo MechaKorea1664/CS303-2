@@ -93,6 +93,12 @@ Node<Item_Type>* Single_Linked_List<Item_Type>::back() {
 }
 
 template <typename Item_Type>
+bool Single_Linked_List<Item_Type>::empty() {
+	if (numItems == 0) return true;
+	return false;
+}
+
+template <typename Item_Type>
 void Single_Linked_List<Item_Type>::insert(size_t index, const Item_Type& item) {
 	Node<Item_Type> *node = new Node<Item_Type>(item);
 	if (index >= numItems) {
@@ -147,5 +153,10 @@ size_t Single_Linked_List<Item_Type>::find(const Item_Type& item) {
 		if (currNode->content == item) return i;
 		if (currNode->nextptr != nullptr) currNode = currNode->nextptr;
 	}
-	return string::npos;
+	return numItems;
+}
+
+template <typename Item_Type>
+size_t Single_Linked_List<Item_Type>::length() {
+	return numItems;
 }

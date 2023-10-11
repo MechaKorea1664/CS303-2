@@ -1,2 +1,32 @@
 ﻿  main.cpp
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(64,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(75,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\SingleLinkedList.cpp(115,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\SingleLinkedList.cpp(102): message : while compiling class template member function 'void Single_Linked_List<int>::insert(size_t,const Item_Type &)'
+          with
+          [
+              Item_Type=int
+          ]
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(61): message : see reference to function template instantiation 'void Single_Linked_List<int>::insert(size_t,const Item_Type &)' being compiled
+          with
+          [
+              Item_Type=int
+          ]
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(12): message : see reference to class template instantiation 'Single_Linked_List<int>' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\SingleLinkedList.cpp(139,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\SingleLinkedList.cpp(126): message : while compiling class template member function 'bool Single_Linked_List<int>::remove(size_t)'
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(72): message : see reference to function template instantiation 'bool Single_Linked_List<int>::remove(size_t)' being compiled
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\SingleLinkedList.cpp(152,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\SingleLinkedList.cpp(150): message : while compiling class template member function 'size_t Single_Linked_List<int>::find(const Item_Type &)'
+          with
+          [
+              Item_Type=int
+          ]
+C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(83): message : see reference to function template instantiation 'size_t Single_Linked_List<int>::find(const Item_Type &)' being compiled
+          with
+          [
+              Item_Type=int
+          ]
   CS303-2.vcxproj -> C:\Users\Kevin Yu\Desktop\CS303\CS303-2\Debug\CS303-2.exe

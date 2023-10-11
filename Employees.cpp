@@ -9,7 +9,7 @@ ProEmployee::ProEmployee(int payrate, int workhours) {
 }
 
 double ProEmployee::findWeeklySalary() {
-	return ((double) payRate * 40);
+	return ((double) payRate / 4);
 }
 
 double ProEmployee::findHealthCareContribution() {
