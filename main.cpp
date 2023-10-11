@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 	cout << "==========[Single Linked List]==============================\n\n";
 	cout << "The items being added to the Single Linked List <int> are: " << endl;
-	cout << "{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}" << endl;
+	cout << "{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}" << endl;
 	Single_Linked_List<int> *intSLL = new Single_Linked_List<int>();
 	int Sample[10] = {1,2,3,4,5,6,7,8,9,10};
 

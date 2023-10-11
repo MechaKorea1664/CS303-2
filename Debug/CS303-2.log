@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  Employees.cpp
+  main.cpp
 C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(28,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(64,20): warning C4018: '<': signed/unsigned mismatch
@@ -29,4 +30,5 @@ C:\Users\Kevin Yu\Desktop\CS303\CS303-2\main.cpp(83): message : see reference to
           [
               Item_Type=int
           ]
+  Generating Code...
   CS303-2.vcxproj -> C:\Users\Kevin Yu\Desktop\CS303\CS303-2\Debug\CS303-2.exe
